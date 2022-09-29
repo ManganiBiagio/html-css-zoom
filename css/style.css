@@ -7,17 +7,19 @@
 :root{
     --font-color:white;
 }
+body{
+    padding: 0 2rem;
+    background-color: #4A4A4A;
+}
 
 .app-container{
-    width: 100vw;
+    width: calc(100vw-4rem);
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-header, main, footer{
-    border:1px solid black;
-}
+
 
 header,footer{
     flex-basis: 15%;
