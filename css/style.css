@@ -34,8 +34,8 @@ header{
 }
 
 footer{
-    background-color: grey;
-    padding: .5rem 0;
+    background-color: #4A4A4A;
+    
 }
 
 .box-bottoni-header{
@@ -116,4 +116,13 @@ footer{
 .lc-box-footer.center .box-icon{
     padding: 0 1rem;
 
+}
+.right-box-footer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: red;
+    padding: 1rem;
 }
