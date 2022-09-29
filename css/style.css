@@ -3,3 +3,25 @@
     margin: 0;
     padding: 0;
 }
+
+.app-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer{
+    border:1px solid black;
+}
+
+header,footer{
+    flex-basis: 10%;
+}
+main{
+    flex-grow: 1;
+}
+
+.bottoni-header{
+    text-align: right;
+}
