@@ -10,6 +10,7 @@
 body{
     padding: 0 2rem;
     background-color: #4A4A4A;
+    overflow:hidden;
 }
 
 .app-container{
